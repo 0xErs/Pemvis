@@ -13,7 +13,4 @@ Berikut adalah beberapa tampilan desain mockup dari aplikasi SelLand:
 ### Dashboard
 ![Dashboard](Design/Dashboard.png)
 
-### Form Tambah Data Tanah
-![Form Tambah Tanah](Design/Manajemen_Tanah.png)
-
-
+### Manajemen Data Tanah
