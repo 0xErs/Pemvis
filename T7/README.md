@@ -14,13 +14,6 @@
   - Tambah, edit, dan hapus data tanah.
   - Data tersimpan di tabel `tanah`.
 
-- **👤 Manajemen User**
-  - Kelola data pengguna aplikasi dari tabel `user`.
-
-- **📄 Halaman Daftar Penjualan**
-  - Menampilkan daftar tanah yang sudah dijual atau dalam proses transaksi.
-  - Data berasal dari tabel `daftar`.
-
 ## 🛠️ Teknologi yang Digunakan
 
 - Bahasa Pemrograman: **C# (Windows Forms)**
