@@ -1,4 +1,4 @@
-##### TUGAS 4 PEMROGRAMAN VISUAL
+# TUGAS 4 PEMROGRAMAN VISUAL
 
 ## 🖼️ Desain Mockup
 
@@ -14,6 +14,6 @@ Berikut adalah beberapa tampilan desain mockup dari aplikasi SelLand:
 ![Dashboard](Design/Dashboard.png)
 
 ### Form Tambah Data Tanah
-![Form Tambah Tanah](design/form-tambah-tanah.png)
+![Form Tambah Tanah](Design/Manajemen_Tanah.png)
 
 
