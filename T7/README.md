@@ -1,6 +1,6 @@
 # 🌍 SelLand - Aplikasi Penjualan Tanah
 
-**SelLand** adalah aplikasi desktop berbasis Windows Forms (WinForms) yang dibuat menggunakan Visual Studio dan MySQL. Aplikasi ini bertujuan untuk mempermudah proses pendataan, pengelolaan, dan penjualan tanah. Proyek ini dikembangkan sebagai tugas akhir mata kuliah **Pemrograman Visual**.
+**SelLand** adalah aplikasi desktop berbasis Windows Forms (WinForms) yang dibuat menggunakan Visual Studio dan MySQL. Aplikasi ini bertujuan untuk mempermudah proses pendataan, pengelolaan, dan penjualan tanah. Proyek ini dikembangkan sebagai tugas mata kuliah **Pemrograman Visual**.
 
 ## ✨ Fitur Utama
 
