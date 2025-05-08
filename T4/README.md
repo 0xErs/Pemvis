@@ -1,6 +1,6 @@
-# TUGAS 4 PEMROGRAMAN VISUAL
+## TUGAS 4 PEMROGRAMAN VISUAL
 
-## 🖼️ Desain Mockup
+### 🖼️ Desain Mockup
 
 Berikut adalah beberapa tampilan desain mockup dari aplikasi SelLand:
 
