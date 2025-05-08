@@ -1,20 +1,37 @@
 ### Tugas 3 Pemrograman Visual 
 
-Aplikasi Quiz AR Pengenalan Adat Nusantara merupakan media pembelajaran berbasis Augmented Reality (AR) yang dirancang untuk membantu siswa Sekolah Dasar dalam mengenal keberagaman budaya Indonesia secara interaktif dan menyenangkan. Aplikasi ini memanfaatkan teknologi AR berbasis marker (marker-based AR), di mana terdapat lima marker utama yang masing-masing merepresentasikan unsur kebudayaan Nusantara, yaitu:
+# 🌍 SelLand - Aplikasi Penjualan Tanah
 
-- Wayang
-- umoh Aceh
-- Angklung
-- Tari Jaipong
-- Tari Piring
+**SelLand** adalah aplikasi desktop berbasis Windows Forms (WinForms) yang dibuat menggunakan Visual Studio dan MySQL. Aplikasi ini bertujuan untuk mempermudah proses pendataan, pengelolaan, dan penjualan tanah. Proyek ini dikembangkan sebagai tugas akhir mata kuliah **Pemrograman Visual**.
 
-Cara Kerja:
-Ketika salah satu marker terdeteksi oleh kamera perangkat, secara otomatis akan muncul panel soal di layar.
-Setiap marker memiliki satu panel soal khusus yang berhubungan langsung dengan budaya yang ditampilkan pada marker tersebut.
-Siswa akan menjawab pertanyaan pilihan ganda yang muncul.
-Jika jawaban benar, akan muncul pop-up "Benar" dan siswa memperoleh 20 poin.
-Jika jawaban salah, akan muncul pop-up "Salah" dan siswa tidak memperoleh poin (0 poin).
-Total poin akan terakumulasi berdasarkan jumlah jawaban benar dari kelima soal.
+## ✨ Fitur Utama
 
-Tujuan:
-Aplikasi ini bertujuan untuk menguji efektivitas teknologi AR sebagai media pembelajaran budaya Nusantara bagi siswa SD. Dengan pendekatan visual dan interaktif, diharapkan siswa menjadi lebih antusias dan mudah memahami materi adat-istiadat dari berbagai daerah di Indonesia.
+- **🔐 Login Sistem**
+  - Verifikasi pengguna menggunakan data dari tabel `login`.
+
+- **📊 Dashboard Utama**
+  - Tampilan utama setelah login untuk mengakses fitur aplikasi.
+
+- **📁 Manajemen Data Tanah**
+  - Tambah, edit, dan hapus data tanah.
+  - Data tersimpan di tabel `tanah`.
+
+- **👤 Manajemen User**
+  - Kelola data pengguna aplikasi dari tabel `user`.
+
+- **📄 Halaman Daftar Penjualan**
+  - Menampilkan daftar tanah yang sudah dijual atau dalam proses transaksi.
+  - Data berasal dari tabel `daftar`.
+
+## 🛠️ Teknologi yang Digunakan
+
+- Bahasa Pemrograman: **C# (Windows Forms)**
+- Basis Data: **MySQL**
+- IDE: **Visual Studio**
+
+## 🗃️ Struktur Tabel Database
+
+1. **`login`** – Menyimpan username dan password pengguna.
+2. **`tanah`** – Menyimpan informasi tanah seperti lokasi, luas, dan harga.
+3. **`user`** – Menyimpan informasi pengguna (admin/operator).
+4. **`daftar`** – Menyimpan data transaksi atau daftar tanah terjual.
