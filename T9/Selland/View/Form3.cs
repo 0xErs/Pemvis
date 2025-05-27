@@ -127,16 +127,34 @@ namespace Selland.Views
         {
             if (dataGridView1.SelectedRows.Count > 0)
             {
-                selectedTanahId = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id_tanah"].Value);
-                textBoxJudul.Text = dataGridView1.SelectedRows[0].Cells["judul"].Value.ToString();
-                textBoxStatus.Text = dataGridView1.SelectedRows[0].Cells["status"].Value.ToString();
-                textBoxLuas.Text = dataGridView1.SelectedRows[0].Cells["luas"].Value.ToString();
-                textBoxAlamat.Text = dataGridView1.SelectedRows[0].Cells["alamat"].Value.ToString();
-                textBoxHarga.Text = dataGridView1.SelectedRows[0].Cells["harga"].Value.ToString();
+                int idTanah = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id_tanah"].Value);
+
+                DialogResult confirm = MessageBox.Show(
+                    "Yakin ingin menghapus data ini?",
+                    "Konfirmasi",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                );
+
+                if (confirm == DialogResult.Yes)
+                {
+                    TanahController controller = new TanahController();
+                    bool isDeleted = controller.DeleteTanah(idTanah);
+
+                    if (isDeleted)
+                    {
+                        MessageBox.Show("Data berhasil dihapus");
+                        LoadTanahData(); // Refresh DataGridView
+                    }
+                    else
+                    {
+                        MessageBox.Show("Gagal menghapus data");
+                    }
+                }
             }
             else
             {
-                MessageBox.Show("Pilih baris terlebih dahulu.");
+                MessageBox.Show("Pilih baris yang akan dihapus");
             }
         }
 
